@@ -1,0 +1,33 @@
+/* applied font family to all elements */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Set the body background color */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* set font weight to any element with the class highlighted-text */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* set the background color only on this specific id */
+#contact-section {
+  background-color: #f0ead6;
+}
